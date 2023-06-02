@@ -9,7 +9,7 @@
     "build": "tsup",
     "dev": "tsup --watch",
     "lint": "eslint src/**/*.{js,ts,tsx,vue}",
-    "genlog": "conventional-changelog -p angular -i CHANGELOG.md -s -r",
+    "genlog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "commit": "git-cz",
     "release": "bumpp package.json --execute=\"npm run genlog\" --commit --all --push --tag && npm publish"
   },
