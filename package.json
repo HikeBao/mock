@@ -12,7 +12,7 @@
     "release:major": "standard-version -r major && yarn release",
     "release:minor": "standard-version -r minor && yarn release",
     "release:patch": "standard-version -r patch && yarn release",
-    "release": "git push && npm publish"
+    "release": "git push --follow-tags && npm publish"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.6.5",
