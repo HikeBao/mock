@@ -11,7 +11,7 @@
     "lint": "eslint src/**/*.{js,ts,tsx,vue}",
     "genlog": "conventional-changelog -p angular -i CHANGELOG.md -s",
     "commit": "git-cz",
-    "release": "standard-version --tag-prefix && npm run genlog"
+    "release:patch": "standard-version -r patch"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.6.5",
