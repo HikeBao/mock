@@ -1,6 +1,6 @@
 {
   "name": "@hike/vite_plugin",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.cjs",
@@ -9,9 +9,9 @@
     "build": "tsup",
     "dev": "tsup --watch",
     "lint": "eslint src/**/*.{js,ts,tsx,vue}",
-    "release:changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
+    "genlog": "conventional-changelog -p angular -i CHANGELOG.md -s -r",
     "commit": "git-cz",
-    "release": "bumpp package.json --execute=\"pnpm release:changelog\" --commit --all --push --tag && pnpm publish --access public"
+    "release": "bumpp package.json --execute=\"pnpm genlog\" --commit --all --push --tag && pnpm publish"
   },
   "devDependencies": {
     "@types/node": "^20.2.5",
