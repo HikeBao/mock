@@ -27,7 +27,8 @@
     "access": "public"
   },
   "files": [
-    "dist"
+    "dist",
+    "CHANGELOG.md"
   ],
   "keywords": [],
   "author": "",

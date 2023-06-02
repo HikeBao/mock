@@ -1,10 +1,18 @@
-> 针对vite而写的一个mock数据插件
+> 针对 vite 而写的一个 mock 数据插件
+
 #### 使用方式
+
 ```javascript
 import { mockPlugin } from "@hike/vite_plugin";
-
-mockPlugin({
-  mockDirectory: "mock",
-  mockFileExtension: ".js"
-})
+{
+  ...
+    plugins: [
+      vue(),
+      mockPlugin({
+        mockDirectory: "mock",
+        mockFileExtension: ".js",
+      })
+    ]
+  ...
+}
 ```
