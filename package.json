@@ -1,6 +1,6 @@
 {
   "name": "@hike/vite_plugin",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.cjs",
@@ -10,16 +10,13 @@
     "dev": "tsup --watch",
     "lint": "eslint src/**/*.{js,ts,tsx,vue}",
     "genlog": "conventional-changelog -p angular -i CHANGELOG.md -s",
-    "commit": "git-cz",
     "release": "standard-version -r patch"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.6.5",
     "@types/node": "^20.2.5",
     "@typescript-eslint/parser": "^5.59.8",
-    "commitizen": "^4.3.0",
     "conventional-changelog-cli": "^2.2.2",
-    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.41.0",
     "standard-version": "^9.5.0",
     "tsup": "^6.7.0",
