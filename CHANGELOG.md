@@ -1,64 +1,188 @@
-# Changelog
-
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
-
-### [0.0.34](https://github.com/HikeBao/mock/compare/v0.0.33...v0.0.34) (2023-06-02)
-
-### [0.0.33](https://github.com/HikeBao/mock/compare/v0.0.32...v0.0.33) (2023-06-02)
+## <small>0.0.34 (2023-06-02)</small>
 
 
-### Bug Fixes
-
-* **empty:** 添加空行测试啦啦啦 ([b72b7c4](https://github.com/HikeBao/mock/commit/b72b7c4c473fd1dede5309fe1c37987faec84b2e))
-
-### [0.0.32](https://github.com/HikeBao/mock/compare/v0.0.31...v0.0.32) (2023-06-02)
 
 
-### Features
+## <small>0.0.33 (2023-06-02)</small>
 
-* **测试:** 添加类型成功 ([9889490](https://github.com/HikeBao/mock/commit/98894901923dd086fd601eac77ad05d8301f7f28))
-
-### [0.0.31](https://github.com/HikeBao/mock/compare/v0.0.30...v0.0.31) (2023-06-02)
-
-### [0.0.30](https://github.com/HikeBao/mock/compare/v0.0.27...v0.0.30) (2023-06-02)
+* fix(empty): 添加空行测试啦啦啦 ([b72b7c4](https://github.com/HikeBao/mock/commit/b72b7c4))
 
 
-### Bug Fixes
 
-* **log:** 修复日志问题 ([a7f7616](https://github.com/HikeBao/mock/commit/a7f761677a816509e6f95cdaa912480ee124f0d6))
-
-### [0.0.29](https://github.com/HikeBao/mock/compare/v0.0.27...v0.0.29) (2023-06-02)
+## <small>0.0.32 (2023-06-02)</small>
 
 
-### Bug修复
-
-* **log:** 修复日志问题 ([a7f7616](http://gitlab.cmss.com/BI/mock/commit/a7f761677a816509e6f95cdaa912480ee124f0d6))
 
 
-### 删除
-
-* **package:** 删除package可能没用的包 ([d6c3957](http://gitlab.cmss.com/BI/mock/commit/d6c39575414babde83735248fd473dbba53053f9))
-
-### [0.0.28](https://github.com/HikeBao/mock/compare/v0.0.27...v0.0.28) (2023-06-02)
+## <small>0.0.31 (2023-06-02)</small>
 
 
-### Bug修复
-
-* **log:** 修复日志问题 ([a7f7616](http://gitlab.cmss.com/BI/mock/commit/a7f761677a816509e6f95cdaa912480ee124f0d6))
-
-### [0.0.27](https://github.com/HikeBao/mock/compare/v0.0.26...v0.0.27) (2023-06-02)
-
-### [0.0.26](https://github.com/HikeBao/mock/compare/v0.0.25...v0.0.26) (2023-06-02)
-
-### [0.0.25](https://github.com/HikeBao/mock/compare/v0.0.24...v0.0.25) (2023-06-02)
-
-### [0.0.24](https://github.com/HikeBao/mock/compare/v0.0.23...v0.0.24) (2023-06-02)
 
 
-### Features
+## <small>0.0.30 (2023-06-02)</small>
 
-* **Test:** 测试是否只允许feat ([39b1ed8](https://github.com/HikeBao/mock/commit/39b1ed846544cb098be51df890fed7fc3c7df5b7))
+* fix(log): 修复日志问题 ([a7f7616](https://github.com/HikeBao/mock/commit/a7f7616))
 
-### [0.0.23](https://github.com/HikeBao/mock/compare/v0.0.22...v0.0.23) (2023-06-02)
 
-### [0.0.22](https://github.com/HikeBao/mock/compare/v0.0.21...v0.0.22) (2023-06-02)
+
+## <small>0.0.27 (2023-06-02)</small>
+
+
+
+
+## <small>0.0.26 (2023-06-02)</small>
+
+* fix(versionrc): 修复提交不检测问题 ([589f462](https://github.com/HikeBao/mock/commit/589f462))
+
+
+
+## <small>0.0.25 (2023-06-02)</small>
+
+
+
+
+## <small>0.0.24 (2023-06-02)</small>
+
+* feat(Test): 测试是否只允许feat ([39b1ed8](https://github.com/HikeBao/mock/commit/39b1ed8))
+
+
+
+## <small>0.0.23 (2023-06-02)</small>
+
+
+
+
+## <small>0.0.22 (2023-06-02)</small>
+
+
+
+
+## <small>0.0.21 (2023-06-02)</small>
+
+* feat(log): 再次提交commit ([a95aace](https://github.com/HikeBao/mock/commit/a95aace))
+
+
+
+## <small>0.0.20 (2023-06-02)</small>
+
+* feat(log): changlog ([95ab4da](https://github.com/HikeBao/mock/commit/95ab4da))
+
+
+
+## <small>0.0.19 (2023-06-02)</small>
+
+
+
+
+## <small>0.0.18 (2023-06-02)</small>
+
+
+
+
+## <small>0.0.17 (2023-06-02)</small>
+
+
+
+
+## <small>0.0.16 (2023-06-02)</small>
+
+
+
+
+## <small>0.0.15 (2023-06-02)</small>
+
+
+
+
+## <small>0.0.14 (2023-06-02)</small>
+
+
+
+
+## <small>0.0.12-beta.6 (2023-06-02)</small>
+
+
+
+
+## <small>0.0.12-beta.5 (2023-06-02)</small>
+
+
+
+
+## <small>0.0.12-beta.4 (2023-06-02)</small>
+
+
+
+
+## <small>0.0.12-beta.3 (2023-06-02)</small>
+
+* feat: 删除没必要的包 ([c95c93e](https://github.com/HikeBao/mock/commit/c95c93e))
+
+
+
+## <small>0.0.12-beta.2 (2023-06-02)</small>
+
+
+
+
+## <small>0.0.12-beta.1 (2023-06-02)</small>
+
+
+
+
+## <small>0.0.12-beta.0 (2023-06-02)</small>
+
+
+
+
+## <small>0.0.13 (2023-06-02)</small>
+
+
+
+
+## <small>0.0.12 (2023-06-02)</small>
+
+* fix(bug): 修复 ([e2c20a2](https://github.com/HikeBao/mock/commit/e2c20a2))
+
+
+
+## <small>0.0.11 (2023-06-02)</small>
+
+
+
+
+## <small>0.0.9 (2023-06-02)</small>
+
+
+
+
+## <small>0.0.8 (2023-06-02)</small>
+
+
+
+
+## <small>0.0.7 (2023-06-02)</small>
+
+
+
+
+## <small>0.0.6 (2023-06-02)</small>
+
+
+
+
+## <small>0.0.5 (2023-06-02)</small>
+
+
+
+
+## <small>0.0.4 (2023-06-02)</small>
+
+
+
+
+## <small>0.0.3 (2023-06-02)</small>
+
+
+
+
