@@ -1,3 +1,7 @@
+## [0.0.12-beta.2](https://github.com/HikeBao/mock/compare/v0.0.12-beta.1...v0.0.12-beta.2) (2023-06-02)
+
+
+
 ## [0.0.12-beta.0](https://github.com/HikeBao/mock/compare/v0.0.13...v0.0.12-beta.0) (2023-06-02)
 
 
