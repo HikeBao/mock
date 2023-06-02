@@ -1,3 +1,12 @@
+## [0.0.12-beta.3](https://github.com/HikeBao/mock/compare/v0.0.12-beta.2...v0.0.12-beta.3) (2023-06-02)
+
+
+### Features
+
+* 删除没必要的包 ([c95c93e](https://github.com/HikeBao/mock/commit/c95c93e361c879b3043398bcc0d2a8d7b71ee89f))
+
+
+
 ## [0.0.12-beta.2](https://github.com/HikeBao/mock/compare/v0.0.12-beta.1...v0.0.12-beta.2) (2023-06-02)
 
 
