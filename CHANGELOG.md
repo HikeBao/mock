@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.33](https://github.com/HikeBao/mock/compare/v0.0.32...v0.0.33) (2023-06-02)
+
+
+### Bug Fixes
+
+* **empty:** 添加空行测试啦啦啦 ([b72b7c4](https://github.com/HikeBao/mock/commit/b72b7c4c473fd1dede5309fe1c37987faec84b2e))
+
 ### [0.0.32](https://github.com/HikeBao/mock/compare/v0.0.31...v0.0.32) (2023-06-02)
 
 
