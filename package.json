@@ -9,9 +9,9 @@
     "build": "tsup",
     "dev": "tsup --watch",
     "lint": "eslint src/**/*.{js,ts,tsx,vue}",
-    "release:major": "standard-version -r major",
-    "release:minor": "standard-version -r minor",
-    "release:patch": "standard-version -r patch",
+    "release:major": "standard-version -r major && yarn release",
+    "release:minor": "standard-version -r minor && yarn release",
+    "release:patch": "standard-version -r patch && yarn release",
     "release": "git push && npm publish"
   },
   "devDependencies": {
