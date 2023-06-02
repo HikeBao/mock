@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.28](https://github.com/HikeBao/mock/compare/v0.0.27...v0.0.28) (2023-06-02)
+
+
+### Bug修复
+
+* **log:** 修复日志问题 ([a7f7616](http://gitlab.cmss.com/BI/mock/commit/a7f761677a816509e6f95cdaa912480ee124f0d6))
+
 ### [0.0.27](https://github.com/HikeBao/mock/compare/v0.0.26...v0.0.27) (2023-06-02)
 
 ### [0.0.26](https://github.com/HikeBao/mock/compare/v0.0.25...v0.0.26) (2023-06-02)
