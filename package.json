@@ -1,6 +1,6 @@
 {
   "name": "@hike/vite_plugin",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.cjs",
@@ -10,7 +10,6 @@
     "dev": "tsup --watch",
     "lint": "eslint src/**/*.{js,ts,tsx,vue}",
     "genlog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
-    "commit": "git-cz",
     "release": "bumpp package.json --execute=\"npm run genlog\" --commit --all --push --tag && npm publish"
   },
   "devDependencies": {
@@ -19,8 +18,8 @@
     "bumpp": "^9.1.0",
     "commitizen": "^4.3.0",
     "conventional-changelog-cli": "^2.2.2",
-    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.41.0",
+    "standard-version": "^9.5.0",
     "tsup": "^6.7.0",
     "typescript": "^5.0.4",
     "vite": "4.3.9"
