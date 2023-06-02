@@ -1,3 +1,1 @@
-import { mockPlugin } from "./mock_plugin";
-
-export { mockPlugin };
+export * from "./mock_plugin";

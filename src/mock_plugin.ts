@@ -1,5 +1,3 @@
-
-
 import fs from "fs";
 import path from "path";
 import url from "url";
@@ -8,7 +6,9 @@ import { Plugin } from "vite";
 interface Option {
   mockDirectory: string;
   mockFileExtension: ".js" | ".ts" | ".json";
+  closeProxy?: boolean;
 }
+
 interface MockType {
   isProxy?: boolean;
   data: any;
@@ -22,7 +22,11 @@ export function mockPlugin(opt: Option): Plugin {
       middlewares.use((req, res, next) => {
         let parseURL = url.parse(req.url ?? "");
         let requestMthod = (req.method ?? "get").toLowerCase();
-        let mockFilePath = path.join(process.cwd(), opt.mockDirectory, parseURL.pathname + opt.mockFileExtension);
+        let mockFilePath = path.join(
+          process.cwd(),
+          opt.mockDirectory,
+          parseURL.pathname + opt.mockFileExtension
+        );
 
         if (!fs.existsSync(mockFilePath)) {
           return next();
@@ -32,7 +36,7 @@ export function mockPlugin(opt: Option): Plugin {
 
         let mockData: MockType = require(mockFilePath)[requestMthod];
 
-        if (!mockData || mockData.isProxy) {
+        if (opt.closeProxy || !mockData || mockData.isProxy) {
           return next();
         }
 
@@ -49,3 +53,4 @@ export function mockPlugin(opt: Option): Plugin {
     }
   };
 }
+
