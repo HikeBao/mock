@@ -6,6 +6,7 @@ specifiers:
   bumpp: ^9.1.0
   commitizen: ^4.3.0
   conventional-changelog-cli: ^2.2.2
+  cz-conventional-changelog: ^3.3.0
   eslint: ^8.41.0
   tsup: ^6.7.0
   typescript: ^5.0.4
@@ -17,6 +18,7 @@ devDependencies:
   bumpp: 9.1.0
   commitizen: 4.3.0
   conventional-changelog-cli: 2.2.2
+  cz-conventional-changelog: 3.3.0
   eslint: 8.41.0
   tsup: 6.7.0_typescript@5.0.4
   typescript: 5.0.4
