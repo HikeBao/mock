@@ -1,0 +1,9 @@
+{  
+    "types": [   
+        {     
+           "type": "chore",   // 类型
+           "section": "Other",   // 在 CHANGELOG 文件中的分类名
+           "hidden": false   // 是否不在 CHANGELOG 中显示
+       } 
+    ]
+}
