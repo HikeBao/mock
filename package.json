@@ -14,6 +14,8 @@
     "release": "bumpp package.json --execute=\"npm run genlog\" --commit --all --push --tag && npm publish"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.6.5",
+    "@commitlint/config-conventional": "^17.6.5",
     "@types/node": "^20.2.5",
     "@typescript-eslint/parser": "^5.59.8",
     "bumpp": "^9.1.0",
@@ -21,6 +23,7 @@
     "conventional-changelog-cli": "^2.2.2",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.41.0",
+    "husky": "^8.0.3",
     "tsup": "^6.7.0",
     "typescript": "^5.0.4",
     "vite": "4.3.9"
