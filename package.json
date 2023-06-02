@@ -1,0 +1,26 @@
+{
+  "name": "@hike/vite_plugin",
+  "version": "0.0.2",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.cjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.4",
+    "vite": "4.3.9"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "files": ["dist"],
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
