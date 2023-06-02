@@ -1,6 +1,6 @@
 {
   "name": "@hike/vite_plugin",
-  "version": "0.0.12-beta.4",
+  "version": "0.0.12-beta.5",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.cjs",
@@ -11,7 +11,7 @@
     "lint": "eslint src/**/*.{js,ts,tsx,vue}",
     "genlog": "conventional-changelog -p angular -i CHANGELOG.md -s -r",
     "commit": "git-cz",
-    "release": "bumpp package.json --commit --all --push --tag && npm run genlog && npm publish"
+    "release": "bumpp package.json --commit --all --push --tag && npm run genlog"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.6.5",
