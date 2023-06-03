@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.45](https://github.com/HikeBao/mock/compare/v0.0.44...v0.0.45) (2023-06-03)
+
+
+### 👷 大哥牛逼 | 哈哈哈👍
+
+* **来咯:** 测一下build foo ([03e4738](https://github.com/HikeBao/mock/commit/03e47386d16f8ccb30e0a85454512c5642a9248a))
+
 ### [0.0.44](https://github.com/HikeBao/mock/compare/v0.0.43...v0.0.44) (2023-06-03)
 
 ### [0.0.43](https://github.com/HikeBao/mock/compare/v0.0.42...v0.0.43) (2023-06-03)
