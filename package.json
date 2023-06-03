@@ -1,6 +1,6 @@
 {
   "name": "@hike/vite_plugin",
-  "version": "0.0.40",
+  "version": "0.0.41",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.cjs",
@@ -40,11 +40,6 @@
     "dist",
     "CHANGELOG.md"
   ],
-  "standard-version": {
-    "skip": {
-      "commit": true
-    }
-  },
   "keywords": [],
   "author": "",
   "license": "ISC"

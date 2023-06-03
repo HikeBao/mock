@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.41](https://github.com/HikeBao/mock/compare/v0.0.40...v0.0.41) (2023-06-03)
+
+
+### 👷 Continuous Integration | CI 配置
+
+* **niubi:** 大哥你真牛 ([dd95a6b](https://github.com/HikeBao/mock/commit/dd95a6bb8a69ec5d8dfbcc915810fae486352ebf))
+
 ### [0.0.40](https://github.com/HikeBao/mock/compare/v0.0.39...v0.0.40) (2023-06-03)
 
 
