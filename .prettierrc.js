@@ -25,7 +25,6 @@ module.exports = {
    *            style={{}}>
    */
   bracketSameLine: true,
-  
 
   // 在对象或数组最后一个元素后面是否加逗号
   trailingComma: "none",

@@ -1,23 +1,26 @@
 {
-    "compilerOptions": {
-      "module": "ESNext",
-      "target": "ES2015",
-      "moduleResolution": "node",
-      "strict": true,
-      "declaration": true,
-      "noUnusedLocals": true,
-      "esModuleInterop": true,
-      "outDir": "dist",
-      "lib": ["esnext", "DOM", "ES2015"],
-      "sourceMap": false,
-      "noEmitOnError": true,
-      "noImplicitAny": false
-    },
-    "include": [
-      "src/*"
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ES2015",
+    "moduleResolution": "node",
+    "strict": true,
+    "declaration": true,
+    "noUnusedLocals": true,
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "lib": [
+      "esnext",
+      "DOM",
+      "ES2015"
     ],
-    "exclude": [
-      "node_modules"
-    ]
-  }
-  
+    "sourceMap": false,
+    "noEmitOnError": true,
+    "noImplicitAny": false
+  },
+  "include": [
+    "src/*",
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
