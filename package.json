@@ -1,6 +1,6 @@
 {
   "name": "@hike/vite_plugin",
-  "version": "0.0.37",
+  "version": "0.0.38",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.cjs",
@@ -11,7 +11,7 @@
     "lint": "eslint src/**/*.{js,ts,tsx,vue}",
     "release:major": "standard-version -r major && yarn release-",
     "release:minor": "standard-version -r minor && yarn release-",
-    "release:patch": "standard-version -r patch && yarn release-",
+    "release:patch": "standard-version -r patch -a && yarn release-",
     "release": "git push --follow-tags && npm publish"
   },
   "devDependencies": {
