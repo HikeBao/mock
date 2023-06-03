@@ -11,6 +11,7 @@ import { mockPlugin } from "@hike/vite_plugin";
       mockPlugin({
         mockDirectory: "mock",
         mockFileExtension: ".js",
+        closeProxy?: false // 全局关闭代理
       })
     ]
   ...

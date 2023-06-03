@@ -9,12 +9,12 @@
     "build": "tsup",
     "dev": "tsup --watch",
     "lint": "eslint src/**/*.{js,ts,tsx,vue}",
-    "release:major": "standard-version -r major && yarn release-",
-    "release:minor": "standard-version -r minor && yarn release-",
-    "release:patch": "standard-version -r patch -a && yarn release-",
+    "release:major": "standard-version -r major && yarn release",
+    "release:minor": "standard-version -r minor && yarn release",
+    "release:patch": "standard-version -r patch && yarn release",
     "release": "git push --follow-tags && npm publish",
-    "setHusky": "husky install && npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'",
-    "removeHusky": "pnpm remove husky && git config --unset core.hooksPath"
+    "prepare": "husky install",
+    "removeHusky": "pnpm remove husky && git config --unset core.hooksPath && rm -rf .husky"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.6.5",
@@ -23,6 +23,7 @@
     "@types/node": "^20.2.5",
     "@typescript-eslint/parser": "^5.59.8",
     "eslint": "^8.41.0",
+    "husky": "^8.0.3",
     "standard-version": "^9.5.0",
     "tsup": "^6.7.0",
     "typescript": "^5.0.4",

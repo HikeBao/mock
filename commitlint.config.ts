@@ -1,5 +1,5 @@
 import type { UserConfig } from '@commitlint/types';
-import { RuleConfigSeverity } from "@commitlint/types";
+// import { RuleConfigSeverity } from "@commitlint/types";
 const Configuration: UserConfig = {
   /*
    * Resolve and load @commitlint/config-conventional from node_modules.
@@ -19,9 +19,9 @@ const Configuration: UserConfig = {
   /*
    * Any rules defined here will override rules from @commitlint/config-conventional
    */
-  rules: {
-    'type-enum': [RuleConfigSeverity.Error, 'always', ['foo']],
-  },
+  // rules: {
+  //   'type-enum': [RuleConfigSeverity.Error, 'always', ['foo']],
+  // },
   /*
    * Functions that return true if commitlint should ignore the given message.
    */
