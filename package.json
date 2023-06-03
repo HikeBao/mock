@@ -1,6 +1,6 @@
 {
   "name": "@hike/vite_plugin",
-  "version": "0.0.41",
+  "version": "0.0.40",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.cjs",
@@ -31,15 +31,15 @@
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
-  "config": {
-    "commitizen": {
-      "path": "cz-conventional-changelog"
-    }
-  },
   "files": [
     "dist",
     "CHANGELOG.md"
   ],
+  "standard-version": {
+    "skip": {
+      "commit": true
+    }
+  },
   "keywords": [],
   "author": "",
   "license": "ISC"

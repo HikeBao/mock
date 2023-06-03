@@ -1,10 +1,5 @@
-/**
- * type(scope?): subject
- * body?
- * footer?
- */
 import type { UserConfig } from '@commitlint/types';
-// import { RuleConfigSeverity } from "@commitlint/types";
+import { RuleConfigSeverity } from "@commitlint/types";
 
 const Configuration: UserConfig = {
   /*
@@ -25,9 +20,9 @@ const Configuration: UserConfig = {
   /*
    * Any rules defined here will override rules from @commitlint/config-conventional
    */
-  // rules: {
-  //   'type-enum': [RuleConfigSeverity.Warning, 'always', ['foo']],
-  // },
+  rules: {
+    'type-enum': [RuleConfigSeverity.Error, 'always', ['foo']],
+  },
   /*
    * Functions that return true if commitlint should ignore the given message.
    */
