@@ -41,6 +41,11 @@
     "dist",
     "CHANGELOG.md"
   ],
+  "standard-version": {
+    "skip": {
+      "commit": true
+    }
+  },
   "keywords": [],
   "author": "",
   "license": "ISC"
