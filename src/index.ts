@@ -1,1 +1,1 @@
-export * from "./mock_plugin";
+export * from "./vite_plugin/mock";

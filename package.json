@@ -1,6 +1,6 @@
 {
-  "name": "@hike/vite_plugin",
-  "version": "0.1.1",
+  "name": "@hike/init",
+  "version": "0.1.2",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.cjs",
@@ -35,7 +35,8 @@
   },
   "files": [
     "dist",
-    "CHANGELOG.md"
+    "CHANGELOG.md",
+    "config"
   ],
   "standard-version": {
     "skip": {

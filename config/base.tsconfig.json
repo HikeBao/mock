@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "noImplicitThis": false,
+    "noImplicitAny": false,
+    "noEmit": true
+  },
+  "exclude": ["node_modules"]
+}

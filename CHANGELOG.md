@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.2](https://github.com/HikeBao/mock/compare/v0.1.1...v0.1.2) (2023-06-05)
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* **mock:** 修复mock插件的proxy全局代理问题 ([b0296e3](https://github.com/HikeBao/mock/commit/b0296e37500b95fb27c8597c1511cd6312b12c29))
+
 ### [0.1.1](https://github.com/HikeBao/mock/compare/v0.1.0...v0.1.1) (2023-06-03)
 
 
