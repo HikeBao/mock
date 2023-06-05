@@ -36,7 +36,7 @@ export function mockPlugin(opt: Option): Plugin {
 
         let mockData: MockType = require(mockFilePath)[requestMthod];
 
-        if (opt.closeProxy || !mockData || mockData.isProxy) {
+        if (mockData?.isProxy && !opt.closeProxy) {
           return next();
         }
 
