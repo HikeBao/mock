@@ -11,8 +11,5 @@ module.exports = {
     sourceType: "module",
     tsconfigRootDir: "."
   },
-
-  rules: {
-    "no-console": "warn"
-  }
+  extends: ["./config/base.eslint.json"]
 };
