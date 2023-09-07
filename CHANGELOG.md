@@ -2,6 +2,62 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.0](https://github.com/HikeBao/mock/compare/v0.0.2...v1.0.0) (2023-06-05)
+
+
+### 💄 Styles | 风格
+
+* **code:** 提取prettier到config，美化代码 ([9ab311a](https://github.com/HikeBao/mock/commit/9ab311a03353e53903249fcda23c88e190242a1a))
+* **eslint:** 将eslint抽离到config ([2c6a980](https://github.com/HikeBao/mock/commit/2c6a980d7186cc2e44339059aada317193a6663b))
+
+## [0.1.0](https://github.com/HikeBao/mock/compare/v0.0.2...v0.1.0) (2023-06-05)
+
+
+### 💄 Styles | 风格
+
+* **code:** 提取prettier到config，美化代码 ([9ab311a](https://github.com/HikeBao/mock/commit/9ab311a03353e53903249fcda23c88e190242a1a))
+* **eslint:** 将eslint抽离到config ([2c6a980](https://github.com/HikeBao/mock/commit/2c6a980d7186cc2e44339059aada317193a6663b))
+
+### [0.0.7](https://github.com/HikeBao/mock/compare/v0.0.2...v0.0.7) (2023-06-05)
+
+
+### 💄 Styles | 风格
+
+* **code:** 提取prettier到config，美化代码 ([9ab311a](https://github.com/HikeBao/mock/commit/9ab311a03353e53903249fcda23c88e190242a1a))
+* **eslint:** 将eslint抽离到config ([2c6a980](https://github.com/HikeBao/mock/commit/2c6a980d7186cc2e44339059aada317193a6663b))
+
+### [0.0.6](https://github.com/HikeBao/mock/compare/v0.0.2...v0.0.6) (2023-06-05)
+
+
+### 💄 Styles | 风格
+
+* **code:** 提取prettier到config，美化代码 ([9ab311a](https://github.com/HikeBao/mock/commit/9ab311a03353e53903249fcda23c88e190242a1a))
+* **eslint:** 将eslint抽离到config ([2c6a980](https://github.com/HikeBao/mock/commit/2c6a980d7186cc2e44339059aada317193a6663b))
+
+### [0.0.5](https://github.com/HikeBao/mock/compare/v0.0.2...v0.0.5) (2023-06-05)
+
+
+### 💄 Styles | 风格
+
+* **code:** 提取prettier到config，美化代码 ([9ab311a](https://github.com/HikeBao/mock/commit/9ab311a03353e53903249fcda23c88e190242a1a))
+* **eslint:** 将eslint抽离到config ([2c6a980](https://github.com/HikeBao/mock/commit/2c6a980d7186cc2e44339059aada317193a6663b))
+
+### [0.0.4](https://github.com/HikeBao/mock/compare/v0.0.2...v0.0.4) (2023-06-05)
+
+
+### 💄 Styles | 风格
+
+* **code:** 提取prettier到config，美化代码 ([9ab311a](https://github.com/HikeBao/mock/commit/9ab311a03353e53903249fcda23c88e190242a1a))
+* **eslint:** 将eslint抽离到config ([2c6a980](https://github.com/HikeBao/mock/commit/2c6a980d7186cc2e44339059aada317193a6663b))
+
+### [0.0.3](https://github.com/HikeBao/mock/compare/v0.0.2...v0.0.3) (2023-06-05)
+
+
+### 💄 Styles | 风格
+
+* **code:** 提取prettier到config，美化代码 ([9ab311a](https://github.com/HikeBao/mock/commit/9ab311a03353e53903249fcda23c88e190242a1a))
+* **eslint:** 将eslint抽离到config ([2c6a980](https://github.com/HikeBao/mock/commit/2c6a980d7186cc2e44339059aada317193a6663b))
+
 ### [0.0.2](https://github.com/HikeBao/mock/compare/v0.1.2...v0.0.2) (2023-06-05)
 
 

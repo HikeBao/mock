@@ -1,10 +1,17 @@
 {
   "name": "@hike/init",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.cjs",
   "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.cjs",
+      "require": "./dist/index.js"
+    }
+  },
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
@@ -25,7 +32,7 @@
     "eslint": "^8.41.0",
     "husky": "^8.0.3",
     "standard-version": "^9.5.0",
-    "tsup": "^6.7.0",
+    "tsup": "^7.2.0",
     "typescript": "^5.0.4",
     "vite": "4.3.9"
   },
@@ -36,7 +43,8 @@
   "files": [
     "dist",
     "CHANGELOG.md",
-    "config"
+    "config",
+    "miniprogram"
   ],
   "standard-version": {
     "skip": {

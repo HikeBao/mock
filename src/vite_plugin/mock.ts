@@ -6,7 +6,7 @@ import { Plugin } from "vite";
 interface Option {
   mockDirectory: string;
   mockFileExtension: ".js" | ".ts" | ".json";
-  closeProxy?: boolean;
+  closeAllProxy?: boolean;
 }
 
 interface MockType {
@@ -36,7 +36,7 @@ export function mockPlugin(opt: Option): Plugin {
 
         let mockData: MockType = require(mockFilePath)[requestMthod];
 
-        if (mockData?.isProxy && !opt.closeProxy) {
+        if (mockData?.isProxy && !opt.closeAllProxy) {
           return next();
         }
 

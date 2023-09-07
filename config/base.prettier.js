@@ -3,7 +3,7 @@ module.exports = {
   tabWidth: 2,
 
   // 使用单引号代替双引号
-  singleQuote: false,
+  singleQuote: true,
 
   // 句尾添加分号
   semi: true,
