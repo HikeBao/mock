@@ -1,17 +1,10 @@
 {
   "name": "@hike/init",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.cjs",
   "types": "dist/index.d.ts",
-  "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/index.cjs",
-      "require": "./dist/index.js"
-    }
-  },
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",

@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.1](https://github.com/HikeBao/mock/compare/v1.0.0...v1.0.1) (2023-09-07)
+
+
+### ✨ Features | 新功能
+
+* **project:** 升级tsup、优化mock关闭全局代理命名、修改prettier双引号为单引号 ([ca8e6e6](https://github.com/HikeBao/mock/commit/ca8e6e6e6b969ae85f0ea0c99bc4649ab5f846eb))
+
 ## [1.0.0](https://github.com/HikeBao/mock/compare/v0.0.2...v1.0.0) (2023-06-05)
 
 
