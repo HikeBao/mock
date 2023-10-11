@@ -1,12 +1,12 @@
-import fs from "fs";
-import path from "path";
-import url from "url";
-import { Plugin } from "vite";
+import fs from 'fs';
+import path from 'path';
+import url from 'url';
+import { Plugin } from 'vite';
 
 interface Option {
   mockDirectory: string;
-  mockFileExtension: ".js" | ".ts" | ".json";
-  closeAllProxy?: boolean;
+  mockFileExtension: '.js' | '.ts' | '.json';
+  proxyMode: 'mixed' | 'remote' | 'local';
 }
 
 interface MockType {
@@ -17,16 +17,16 @@ interface MockType {
 
 export function mockPlugin(opt: Option): Plugin {
   return {
-    name: "mock_plugin",
+    name: 'mock_plugin',
     configureServer: async ({ middlewares }) => {
       middlewares.use((req, res, next) => {
-        let parseURL = url.parse(req.url ?? "");
-        let requestMthod = (req.method ?? "get").toLowerCase();
-        let mockFilePath = path.join(
-          process.cwd(),
-          opt.mockDirectory,
-          parseURL.pathname + opt.mockFileExtension
-        );
+        let parseURL = url.parse(req.url ?? '');
+        let requestMthod = (req.method ?? 'get').toLowerCase();
+        let mockFilePath = path.join(process.cwd(), opt.mockDirectory, parseURL.pathname + opt.mockFileExtension);
+
+        if (opt.proxyMode === 'remote') {
+          return next();
+        }
 
         if (!fs.existsSync(mockFilePath)) {
           return next();
@@ -36,13 +36,13 @@ export function mockPlugin(opt: Option): Plugin {
 
         let mockData: MockType = require(mockFilePath)[requestMthod];
 
-        if (mockData?.isProxy && !opt.closeAllProxy) {
+        if (mockData?.isProxy && opt.proxyMode === 'mixed') {
           return next();
         }
 
         // 删除对客户端无用代码
         delete mockData.isProxy;
-        res.setHeader("Content-Type", "application/json");
+        res.setHeader('Content-Type', 'application/json');
 
         // 延迟返回
         setTimeout(() => {
@@ -53,4 +53,3 @@ export function mockPlugin(opt: Option): Plugin {
     }
   };
 }
-
